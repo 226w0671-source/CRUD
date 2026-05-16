@@ -1,0 +1,20 @@
+/* ============================================================
+   src/styles.css — Estilos globales base
+   ============================================================ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: #f5f5f5;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+input, select, textarea, button {
+  font-family: inherit;
+}
